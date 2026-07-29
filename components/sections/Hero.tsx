@@ -9,7 +9,7 @@ import { heroData } from "@/data/hero";
 
 export default function Hero() {
   return (
-    <Section id="hero" className="pt-36 bg-gradient-to-b from-[#F8FBFF] via-white to-white">
+    <Section id="hero" className="pt-36 pb-5 bg-gradient-to-b from-[#F8FBFF] via-white to-white">
 
       <div className="grid lg:grid-cols-2 gap-16 items-center">
 
