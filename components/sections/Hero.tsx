@@ -75,14 +75,14 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-         <div className="relative w-full flex justify-center">
+        <div className="relative w-full flex justify-center">
   <Image
     src="/images/heros/hero.png"
     alt="Enterprise Learning"
     width={500}
     height={375}
     priority
-    className="h-auto w-full max-w-md"
+    className="h-auto w-[85%] max-w-[320px] md:max-w-[420px] lg:max-w-[500px]"
   />
 </div>
         </motion.div>
