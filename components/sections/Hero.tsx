@@ -75,15 +75,15 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl">
+          <div className="relative h-[280px] sm:h-[360px] lg:h-auto lg:aspect-[4/3] w-full overflow-hidden rounded-3xl">
   <Image
-  src="/images/heros/hero.png"
-  alt="Enterprise Learning"
-  fill
-  sizes="(max-width: 768px) 100vw, 50vw"
-  priority
-  className="object-contain"
-/>
+    src="/images/heros/hero.png"
+    alt="Enterprise Learning"
+    fill
+    priority
+    sizes="(max-width: 768px) 100vw, 50vw"
+    className="object-contain"
+  />
 </div>
         </motion.div>
 
